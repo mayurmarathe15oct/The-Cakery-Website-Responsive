@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cakery Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <style>
+             
+    
+        body{
+            overflow-x: hidden;
+        }
+            
+        .heroImage{
+            /* display: flex; */
+            height: 80vh;
+            background-image: url("../images/pexels-vidal-balielo-jr-2337818.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 100vw;
+            
+           
+        }
+
+           
+
+        .logo{
+            height: 200%;
+            padding-top: 50px;
+               
+        }
+
+        .navbar{
+            
+            height: 100px;
+            background-color: transparent !important;
+
+
+            
+        }
+
+        .navbar ul li{
+            font-size: 40px;
+            font-weight: bolder;
+            padding-left: 120px;
+        }
+
+        .nav-link{
+            color: black !important;
+            text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+        }
+
+        .nav-link:hover{
+            color: rgb(141, 221, 231) !important;
+            text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18; 
+        }
+
+        .navbar ul li  :hover{
+            color: rgb(50, 220, 236);
+        }
+
+        .videoHolder{
+            height: fit-content;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .videosContainer{
+            height: 100%;
+            width: 100%;
+                
+        }
+
+        .videoAndTitle{
+            height: 100%;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+                
+        }
+
+        .video1{
+             
+             height: 300px;
+             width: 100%;
+             border: 6px solid black;
+          
+        }
+
+        .video2{
+             
+             height: 300px;
+             width: 100%;
+             border: 6px solid black;
+        }
+    
+        .header1{
+             padding-top: 10px;
+             padding-left: 10px;
+             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+             font-size: xx-large;
+             font-weight: bold;
+             color: palevioletred;
+             text-decoration: underline;
+        }
+
+        .videoHeader1{
+             padding-top: 10px;
+             padding-left: 10px;
+             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+             font-size: xx-large;
+             font-weight: bold;
+             color: palevioletred;
+             text-decoration: underline;
+        }
+
+        .para1{
+             padding-left: 10px;
+             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+             font-size: large;
+             color: black;
+        }
+
+        .videoPara1{
+             padding-left: 10px;
+             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+             font-size: large;
+             color: black; 
+        }
+
+        .starRating{
+             padding-left:10px;
+        }
+
+        .starRating2{
+             padding-left: 10px;
+        }
+        
+        .accoladeHolder{
+            height: fit-content;
+            margin-top: 70px;
+            
+        }
+        .container2{
+            height: fit-content;
+            width: 100%;
+            
+       }
+
+       .infoContainer{
+            height: 700px;
+            width: 50%; 
+            /* margin-left: 10px; */
+            /* margin-top: 20px; */
+       }
+
+       .accolade{
+       
+            height: 90%;
+            width: 100%;
+            border: 1px solid black;
+            border-radius: 8px;
+           
+            
+       }
+
+       .logoVS{
+            padding-top: 20px;
+            padding-left: 150px;
+                 
+            
+        }
+
+   
+
+       .header2{
+            font-size: 70px;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(149, 226, 236);
+            padding-left: 10px;
+       }
+
+       .accoladeLogos{
+       
+            height: 700px;
+            width: 50%; 
+           
+    
+       }
+
+       .img{
+             height: 90%;
+             width: 100%;
+       }
+
+       .header3{
+            padding-top: 20px;
+            padding-left: 30px;
+            font-size: xx-large;
+       }
+
+       .para2{
+            padding-left: 30px;
+            font-size: larger;
+       }
+
+       .starRating2{
+            padding-left: 25px;
+       }
+
+       .button1{
+            background-color: palevioletred;
+            border: 10px double red;
+            border-radius: 20px;
+            margin-top: 10px;
+            margin-left: 180px;
+            height: 70px;
+       }
+
+   
+       .buttonName{
+            font-size: x-large;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+       }
+
+       .instagram{
+            height: fit-content;
+            
+            margin-bottom: 30px;
+        }
+
+       .instaContainer{
+        
+            margin-top: 20px;
+        }
+
+        .instagramHeading{
+            display: inline-flex; 
+            padding-top: 30px;
+
+        }
+
+       
+        .header5{
+           font-size: 70px;
+           font-weight: bold;
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           color: rgb(149, 226, 236);
+           padding-left: 120px;
+           padding-top: 3px;
+        }
+
+        .instaPhotos{
+            display: flex;
+            padding-top: 40px;
+            padding-left: 100px;
+            
+        }
+
+        .instaImg{
+            border: 6px solid black;
+        }
+
+        .instaPhoto1{
+           padding-left: 30px;
+           padding-right: 80px;
+        }
+
+        .instaPhoto2{
+           padding-right: 80px;
+        }
+
+        .instaPhoto3{
+           padding-right: 80px;
+        }
+
+       .instaPhoto4{
+           padding-right: 80px;
+        }
+
+        .header6{
+           font-size: larger;
+           font-weight: bold;
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           padding: 10px;
+        }
+
+        .instaInfo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .header7{
+           font-size: 50px;
+           font-weight: bold;
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           padding-left: 180px;
+           padding-top: 10px;
+        }
+
+        .button3{
+           height: 90px;
+           width: 120px;
+           background-color: palevioletred;
+           border: 10px double red;
+           border-radius: 20px;
+           /* margin-left: 850px; */
+           margin-top: 20px;
+        }
+
+
+
+        .buttonName2{
+            font-size: xx-large;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+        }
+
+        .newsLetterContainer{
+            display: inline-block;
+            height: 300px;
+            width: 1100px;
+            background-color: rgb(161, 231, 161);
+            border: 3px solid black;
+            border-radius: 20px;
+            margin-top: 50px;
+            margin-left: 500px;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .newsLetterHeading{
+            display:inline-block;
+            margin-top: 10px;
+        }
+
+        .header8{
+            font-size: xx-large;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding-left: 30px;
+            padding:30px;
+        }
+        
+        .para4{
+            font-size: x-large;
+            font-weight: 50px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding-left: 30px;
+        }
+        
+        .inputElement{
+            margin-left: 280px;
+            margin-top: 20px;
+        }
+
+        .emailId{
+            width: 500px;
+            height: 50px;
+            
+        }
+
+        .button4{
+            margin-top: 20px;
+            margin-left: 200px;
+            height: 70px;
+            width: 115px;
+            background-color: rgb(155, 236, 228);
+            border: 10px double rgb(0, 238, 255);
+            border-radius: 20px;
+        }
+
+        .buttonName3{
+            font-size: x-large;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+        }
+
+        .infoOnCreations{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .header9{
+            font-size: 60px;
+            font-weight: 60px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(149, 226, 236);
+            /* padding-left: 240px; */
+        }
+
+        .button5{
+            height: 90px;
+            background-color: palevioletred;
+            border: 10px double red;
+            border-radius: 20px;
+            /* margin-left: 820px; */
+            margin-top: 20px;
+        }
+
+        .buttonName4{
+            font-size: xx-large;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+        }
+
+        .footer{
+            height: fit-content;
+        }
+
+        .footerBanner{
+            display: inline-flex; 
+            height: fit-content;
+            width: 100vw;
+            background-color: rgb(30, 30, 30);
+            margin-top: 40px;
+        }
+
+        .logoContainer{
+            width: 25%;
+        }
+        .logo2{
+            margin-left: 40px;
+            margin-top: 20px;
+        }
+
+        .socialMediaContainer{
+            
+            height: 250px;
+            margin-top: 30px;
+            width: 41%;
+            padding-left: 50px;
+        }
+
+        .header10{
+            font-size: 40px;
+            font-weight: 60px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(149, 226, 236);
+            padding-left: 150px;
+            padding-top: 20px;
+        }
+
+        .socialMediaLinks{
+            display: inline-flex;
+            padding-left: 170px;
+            
+            
+        }
+
+        .facebookIcon{
+            padding-right: 20px;
+        }
+
+        .instagramIcon{
+            padding-right: 20px;
+        }
+        
+        .para5{
+            font-size: x-large;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 60px;
+            color: rgb(185, 238, 238);
+            margin-left: 170px;
+            margin-top: 100px;
+        }
+
+        .contactInfo{
+            
+            height: 5px;
+            margin-left: 150px;
+            width: 26%;
+        }
+
+        .header11{
+            font-size: 40px;
+            font-weight: 60px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(149, 226, 236);
+            padding-left: 50px;
+            padding-top: 3px;
+        }
+
+        .header12{
+            font-size: 30px;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(171, 237, 182);
+            padding-left: 50px;
+        }
+
+        .para6{
+            font-size: large;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 60px;
+            color: palevioletred;
+            padding-left: 50px;
+            /* padding-right: 10px; */
+        }
+
+        a.phoneNumber{
+            font-weight: bold;
+            text-decoration: none;
+            color: palevioletred;
+
+        }
+
+        a.phoneNumber:hover{
+            color: rgb(229, 84, 133);
+        }
+
+        
+
+        a.email{
+            font-weight: bold;
+            text-decoration: none;
+            color: palevioletred;
+        }
+
+        a.email:hover{
+            color: rgb(229, 84, 133);
+        }
+
+
+
+
+
+            @media only screen and (min-width: 375px)and (max-width: 767px){
+                .navbar ul li{
+                 font-size: 20px;
+                 
+                } 
+
+                .logo{
+                    height: 150%;
+                    padding-top: 10px;
+                    
+                }
+
+                .video1{
+                    
+                    height: 200px;
+                    width: 100%;
+                    border: 6px solid black;
+          
+                }
+
+                .video2{
+                    
+                    height: 200px;
+                    width: 100%;
+                    border: 6px solid black;
+                }
+
+                .videoAndTitle{
+                   width: 100%;
+                   padding-left: 50px;
+                
+                }
+
+                .box{
+                    margin-top: 50px;
+                }
+
+                .infoContainer{
+                    width: 150%;
+                    margin-left: 20px; 
+                    
+                }
+
+                .accoladeLogos{
+                    width: 100%; 
+                    margin-left: 20px;
+                
+                }
+
+                .logoVS{
+                   
+                    padding-left: 130px;
+                    width: 290px;
+            
+                }
+
+                .button1{
+                   margin-left: 130px;
+                   
+                }
+
+                .instagram{
+                  
+                   margin-top: 10px;
+                   margin-bottom: 20px;
+                }
+
+                .header5{
+                    padding-left: 30px;
+                }
+
+                .instaPhotos{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding-left: 80px;
+                }
+
+                .instaPhoto1{
+                    padding-left: 1px;
+                   
+                }
+                
+                .header7{
+                    /* padding-left: 20px; */
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 23px;
+                }
+                
+                .button3{
+                    margin-left: 20px;
+                }
+
+                .newsLetterContainer{
+                    /* display: inline-block; */
+                    height: 350px;
+                    width: 90%;
+                    margin-top: 50px;
+                    margin-left: 30px;
+                    /* justify-content: center; */
+                    /* align-items: center; */
+                }
+        
+                .newsLetterHeading{
+                    /* display:inline-block; */
+                    margin-top: 10px;
+                }
+
+                .header8{
+                    font-size: xx-large;
+                    font-weight: bold;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    padding-left: 30px;
+                    padding:30px;
+                }
+        
+                .para4{
+                    font-size: x-large;
+                    font-weight: 50px;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    padding-left: 30px;
+                }
+        
+                .inputElement{
+                    margin-left: 50px;
+                    margin-top: 20px;
+                }
+
+                .emailId{
+                    width: 350px;
+                    height: 50px;
+            
+                }
+
+                .button4{
+                   margin-top: 20px;
+                   margin-left: 100px;
+                   height: 70px;
+                   width: 115px;
+                   background-color: rgb(155, 236, 228);
+                   border: 10px double rgb(0, 238, 255);
+                   border-radius: 20px;
+                }
+
+                .buttonName3{
+                   font-size: x-large;
+                   font-weight: bold;
+                   text-decoration: none;
+                   color: black;
+                }
+                
+                .infoOnCreations{
+                   /* display: inline-block; */
+                   margin-top: 50px;
+                   margin-left: 50px;
+                }
+
+                .header9{
+                   font-size: 40px;
+                   font-weight: 60px;
+                   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                   color: rgb(149, 226, 236);
+                   padding-left: 30px;
+                }
+
+                .button5{
+                   height: 70px;
+                   background-color: palevioletred;
+                   border: 10px double red;
+                   border-radius: 20px;
+                   /* margin-left: 10px; */
+                   margin-top: 20px;
+                }
+
+                .footer{
+                height: 500px;
+                }
+
+                .footerBanner{
+                    display: flex;
+                    height: 900px;
+                    width: 100vw;
+                    background-color: rgb(30, 30, 30);
+                    margin-top: 40px;
+                }
+
+                .logoContainer{
+                    width: 25%;
+                }
+                    
+                .logo2{
+                    margin-left: 130px;
+                    margin-top: 20px;
+                }
+
+                .socialMediaContainer{
+                
+                    height: 250px;
+                    /* margin-top: 30px; */
+                    width: 60%;
+                    padding-top: 250px;
+                    padding-left: 1px;
+                }
+
+                .header10{
+                    font-size: 40px;
+                    font-weight: 60px;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    color: rgb(149, 226, 236);
+                    padding-left: 2px;
+                    padding-top: 10px;
+                }
+
+                .socialMediaLinks{
+                    display: inline-flex;
+                    padding-left: 5px;
+                
+                
+                }
+
+                .facebookIcon{
+                    padding-right: 20px;
+                }
+
+                .instagramIcon{
+                    padding-right: 20px;
+                }
+            
+                .para5{
+                    font-size: x-large;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    font-weight: 60px;
+                    color: rgb(185, 238, 238);
+                    margin-left: 10px;
+                    margin-top: 100px;
+                }
+
+                .contactInfo{
+                
+                    height: 5px;
+                    margin-left: 30px;
+                    width: 60%;
+                }
+
+                .header11{
+                    font-size: 25px;
+                    font-weight: 60px;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    color: rgb(149, 226, 236);
+                    padding-left: 130px;
+                    padding-top: 3px;
+                }
+
+                .header12{
+                    font-size: 20px;
+                    font-weight: bold;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    color: rgb(171, 237, 182);
+                    padding-left: 120px;
+                }
+
+                .para6{
+                    font-size: medium;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    font-weight: 60px;
+                    color: palevioletred;
+                    padding-left: 120px;
+                    padding-top: 10px;
+                }
+
+                a.phoneNumber{
+                    font-weight: bold;
+                    text-decoration: none;
+                    color: palevioletred;
+
+                }
+
+                a.phoneNumber:hover{
+                    color: rgb(229, 84, 133);
+                }
+
+            
+
+                a.email{
+                    font-weight: bold;
+                    text-decoration: none;
+                    color: palevioletred;
+                }
+
+                a.email:hover{
+                    color: rgb(229, 84, 133);
+                }
+
+
+
+                
+            }
+    </style>
+</head>
+<body>
+    <div class="heroImage">
+        
+        
+        <div class="container-fluid ">
+            <nav class="navbar d-flex justify-content-between navbar-expand-lg bg-body-tertiary navbar-dark bg-dark">
+                <!-- <div class="container-fluid"> -->
+                  
+                  <img class="logo" src="../images/cakerylogo.png">
+                  
+                  
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link"  href="./index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./creations.html">Creations</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./accolades.html">Accolades</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./aboutus.html">About us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./contactus.html">Contact us</a>
+
+                      </li>
+
+                    </ul>
+                    
+                  </div>
+                <!-- </div> -->
+            </nav>        
+                   
+                
+                
+                
+        </div>
+        
+    </div>
+
+    <div class="container videoHolder">
+        <div class="videosContainer row">
+            <div class="videoAndTitle col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="videoContainer">
+                    <!-- <iframe class="video1" src="../assets/images/video (1080p).mp4" ></iframe> -->
+                    <video class="video1" controls>
+                        <source src="../images/video (1080p).mp4" type="video/mp4">
+                        
+                    </video>
+                    <h1 class="header1">Cake Decoration</h1>
+                    <p class="para1">Elegant swirls, vibrant colors, fondant animals adorn delicious,tiered masterpiece.</p>
+                    <img class="starRating" src="../images/5starratings.png" height="40px">
+                </div>
+                
+            </div>
+            <div class="videoAndTitle box col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="videoContainer">
+                    <!-- <iframe class="video2" src="../assets/images/production_id_4349485 (1080p).mp4" ></iframe> -->
+                    <video class="video2" controls>
+                        <source src="../images/production_id_4349485 (1080p).mp4" type="video/mp4">
+                        
+                    </video>
+                    <h1 class="videoHeader1">The Cakery Interior</h1>
+                    <p class=" videoPara1">Cozy ambiance, aroma-filled haven with warm wood accents and pastel decor</p>
+                    <img class="starRating2" src="../images/5starratings.png" height="40px">
+                </div>
+            </div>
+            
+    
+        </div>
+    </div>
+    <div class="container accoladeHolder">
+        <div class="container2 row">
+            <h2 class="header2">Accolades</h2>
+            <br>
+            <br>
+            <div class="infoContainer col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="accolade">
+                    <img class="logoVS" src="../images/Vancouver_Sun_logo_2016.jpg" width="380px" height="230px">
+                    <h3 class="header3">Vancouver Sun</h3>
+                    <p class="para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et fringilla neque, eu tempor orci. Pellentesque habitant au morbi tristique senectus et netus. <br>-Lorem Ipsum</p>
+                    <img class="starRating2" src="../images/5starratings.png" height="40px">
+                    <br><br>
+                    <button class="button1"><a class="buttonName" href="./accolades.html">READ MORE</a></button>
+                    
+                </div>
+            </div>
+            <div class="accoladeLogos col-12 col-sm-12 col-md-6 col-lg-6">
+                <img class="img" src="../images/AccoladeLogos.png">
+           </div>
+        </div>
+    </div>
+    <div class="instagram">
+        <div class="instaContainer row">
+            <div class="instagramHeading d-flex justify-content-center align-items-center col-12 col-sm-12 col-md-12 col-lg-12">
+                <h5 class="header5">Instagram Posts</h5>
+            </div>
+            
+            
+            <div class="instaPhotos d-flex justify-content-center align-items-center  col-12 col-sm-12 col-md-12 col-lg-12">
+                 <div class="instaPhoto1">
+                       <img class="instaImg" src="../images/pexels-brent-keane-.jpg" width="300px" height="300px">
+                       <h6 class="header6">April 23rd, 2022</h6>
+                 </div>
+                 <div class="instaPhoto2">
+                       <img class="instaImg" src="../images/instaphoto2.jpg"  width="300px" height="300px" >
+                       <h6 class="header6">June 17th, 2023</h6>
+                 </div>
+                 <div class="instaPhoto3">
+                       <img class="instaImg" src="../images/instaphoto3.jpg" width="300px" height="300px">
+                       <h6 class="header6">December 8th, 2023</h6>
+                 </div>
+                 <div class="instaPhoto4">
+                    <img class="instaImg" src="../images/instaphoto4.jpg" width="300px" height="300px">
+                    <h6 class="header6">January 10th, 2024</h6>
+                 </div>
+                 
+            </div>
+            <br>
+            <div class="instaInfo col-12 col-sm-12 col-md-12 col-lg-12">
+                <h7 class="header7">For more instagram posts, click below</h7>
+                <br>
+                <button class="button3"><a class="buttonName2" href="https://instagram.com">VIEW</a></button>
+            </div>
+            
+        </div>
+    </div>
+    <div class="newsLetterContainer">
+        <div class="newsLetterHeading">
+            <h8 class="header8">Newsletter</h8>
+            <p class="para4">Sign up for our monthly new creations and offers</p>
+        </div>
+        <div class="inputElement">
+            
+            <input class="emailId" type="email" id="email" placeholder="Enter your email here">
+            <br>
+            <button class="button4"><a class="buttonName3" href="#">SEND</a></button>
+        </div>
+          
+         
+    </div>
+    <div class="infoOnCreations">
+        <h9 class="header9">Interested to take a look at our unique creations?</h9>
+        <br>
+        <button class="button5"><a class="buttonName4" href="./creations.html">CREATIONS</a></button>
+    </div>
+    <div class="footer">
+        <footer class="footerBanner row">
+              <div class="logoContainer col-12 col-sm-12 col-md-4 col-lg-4">
+                   <img class="logo2" src="../images/cakerylogo.png" width="250px" height="200px">
+            
+            
+              </div>
+              <div class="socialMediaContainer col-12 col-sm-12 col-md-4 col-lg-4">
+                   <h10 class="header10">Follow us on</h10>
+                   <br>
+                   <div class="socialMediaLinks">
+                        <div class="facebookIcon"><a href="https://facebook.com"><img src="../images/icons-facebook-.png" width="50px" height="50px"></a></div>
+                        <div class="instagramIcon"><a href="https://instagram.com"><img src="../images/icons-instagram-.png" width="50px" height="50px"></a></div>
+                        <div class="twitterIcon"><a href="https://twitter.com"><img src="../images/logo2-twitter.png" width="50px" height="50px"></a></div>
+                   </div>
+                   <br>
+                   <p class="para5">Copyright@2024</p>
+              </div>
+              <div class="contactInfo col-12 col-sm-12 col-md-4 col-lg-4">
+                   <h11 class="header11">Find Us At</h11>
+                   <br>
+                   <br>
+                   <h12 class="header12">'THE CAKERY'</h12>
+                   <p class="para6">333 Terminal Avenue,<br> Vancouver, BC,<br>V8R 6T2 <br> <a class="phoneNumber" href="#">604-898-3629</a> <br><a class="email" href="#">thecakerybake@uniquecreations.com</a></p>
+              </div>
+        
+        
+        
+        </footer>
+    </div>
+</body>
+</html>
